@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    font-size: 18px;
+    font-family: serif;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header nav ul {
+    display: flex;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header h1 {
+image-rendering: 400px;
+font-size: 30px;
+padding: 220px ;
+text-align: center;
+}
+  
+
+header {
+   background: url(images/IMG_3752.png);
+   background-attachment: absolute;
+   background-size: cover;
+   border:1px solid gray;
+   height: 700px;
+   width: 100%;
+}
+
+
+header ul li a:hover {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img  {
+    width: 100px;
+}
+
+main h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: .0.5em;
+    margin-bottom: 50px;
+}
+
+main {
+    background-color: #f5f5f5;
+    padding-bottom: 0;
+}
+
+
+section h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    line-height: 1.80;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+section h4 {
+    text-align: center;
+}
+
+section p ul {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.cafe {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cafe p {
+    position: absolute;
+    font-size: 20px;
+}
+
+.cafe img {
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding: 60px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0px;
+    background-color: #f5f5f5;
+    border:1px solid gray;
+    padding-top: 30px;
+}
+
+footer p {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
